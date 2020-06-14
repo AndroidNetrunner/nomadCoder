@@ -1,0 +1,31 @@
+body {
+	font-family: sans-serif;
+	color:white;
+	text-align:center;
+  }
+
+  .del {
+	font-weight: bold;
+	color: red;
+	font-size: 12pt;
+  }
+
+  .checked {
+	font-weight: bold;
+	color: green;
+	font-size: 12pt;
+  }
+
+  .undo {
+	font-weight: bold;
+	color: blue;
+	font-size: 12pt;
+  }
+  .background {
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  z-index: -1;
+	  width:100%;
+	  height: 100%;
+  }
